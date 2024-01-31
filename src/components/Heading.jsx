@@ -1,9 +1,9 @@
 const Heading = ({ title, background }) => {
   return (
-    <div className="relative py-4 px-6 text-[#fee1B6] flex items-center justify-center">
+    <div className="relative py-4 px-6 text-[#cce5e3] flex items-center justify-center">
       <h1
         className="relative text-6xl font-light z-20 "
-        style={{ textShadow: "0 0 20px #fee1b6" }}
+        style={{ textShadow: "0 0 20px #cce5e3" }}
       >
         {title}
       </h1>

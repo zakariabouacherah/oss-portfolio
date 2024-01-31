@@ -1,10 +1,5 @@
 import Heading from "./components/Heading";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaPinterest,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaBehance, FaTwitter } from "react-icons/fa";
 
 const About = () => {
   // const bg = { backgroundImage: 'url("../public/bg3.png")' };
@@ -23,12 +18,12 @@ const About = () => {
         <div className="w-[50%] h-[600px] flex items-center justify-end pr-12 ">
           <div className="relative h-[100%] ">
             <img
-              src="../public/img.jpg"
+              src="../public/img1.png"
               width="400px"
               alt="img"
-              className="relative w-full h-full object-cover z-20"
+              className="relative w-full h-full scale-110 object-cover z-20"
             />
-            <div className="absolute top-[30px] left-[30px] w-full h-full z-10 border-[10px] border-[#fee1B6] "></div>
+            <div className="absolute top-[30px] left-[30px] w-full h-full z-10 border-[10px] border-[#cce5e3] "></div>
           </div>
         </div>
         <div className="w-[50%] text-white flex flex-col gap-2 ">
@@ -52,19 +47,19 @@ const About = () => {
           </div>
           <div className="grid grid-cols-2 gap-x-16 gap-y-6 place-content-center text-center">
             <div className={styledItem}>
-              <h2 className="text-[#fee1B6] mb-1">Name</h2>
+              <h2 className="text-[#cce5e3] mb-1">Name</h2>
               <div className="font-semibold ">Oussama Ichid</div>
             </div>
             <div className={styledItem}>
-              <h2 className="text-[#fee1B6] mb-1 ">Phone</h2>
+              <h2 className="text-[#cce5e3] mb-1 ">Phone</h2>
               <div className="font-semibold">+212 600 000 000</div>
             </div>
             <div className={styledItem}>
-              <h2 className="text-[#fee1B6] mb-1 ">Country</h2>
+              <h2 className="text-[#cce5e3] mb-1 ">Country</h2>
               <div className="font-semibold">Morocco</div>
             </div>
             <div className={styledItem}>
-              <h2 className="text-[#fee1B6] mb-1 ">Email</h2>
+              <h2 className="text-[#cce5e3] mb-1 ">Email</h2>
               <div className="font-semibold">oussamaichid@gmail.com</div>
             </div>
           </div>
@@ -76,7 +71,7 @@ const About = () => {
               <FaTwitter />
             </a>
             <a href="#" className={socilaMedia}>
-              <FaPinterest />
+              <FaBehance />
             </a>
             <a href="#" className={socilaMedia}>
               <FaInstagram />
