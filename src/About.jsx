@@ -70,7 +70,10 @@ const About = () => {
             <a href="#" className={socilaMedia}>
               <FaTwitter />
             </a>
-            <a href="#" className={socilaMedia}>
+            <a
+              href="https://www.behance.net/ossamaichid"
+              className={socilaMedia}
+            >
               <FaBehance />
             </a>
             <a href="#" className={socilaMedia}>
