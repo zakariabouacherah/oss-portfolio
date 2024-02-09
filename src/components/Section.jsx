@@ -1,11 +1,16 @@
 import React from "react";
+import Logos from "./Logos";
+import Photos from "./Photos";
+import Videos from "./Videos";
+import Sm from "./Sm";
 
 const Section = ({ activeSection }) => {
   return (
     <div>
-      {activeSection === "photos" && <h2>Photos Section</h2>}
-      {activeSection === "logos" && <h2>Logos Section</h2>}
-      {activeSection === "3d" && <h2>3D Projects Section</h2>}
+      {activeSection === "logos" && <Logos />}
+      {activeSection === "sm" && <Sm />}
+      {activeSection === "photos" && <Photos />}
+      {activeSection === "videos" && <Videos />}
     </div>
   );
 };

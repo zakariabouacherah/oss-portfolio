@@ -15,29 +15,32 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`flex items-center w-screen transition-all justify-between py-4 px-16 fixed top-0  z-30 text-slate-50  ${
+      className={`flex items-center w-screen transition-all justify-between py-4 px-16 fixed top-0  z-40 text-slate-50  ${
         color ? "backdrop-blur-md bg-[#44444471] shadow-md" : "bg-transparent"
       }`}
     >
       <div className="font-bold text-2xl text-[#CCE5E3]">OI</div>
       <div>
         <ul className="flex items-center gap-6">
-          <a href="#home">
+          <a href="/#home">
             <li className={menuItemStyle}>Home</li>
           </a>
-          <a href="#about">
-            <li className={menuItemStyle}>About Me</li>
+          <a href="/#about">
+            <li className={menuItemStyle}>About</li>
           </a>
-          <a href="#skills">
+          <a href="/#skills">
             <li className={menuItemStyle}>Skills</li>
           </a>
-          <a href="#portfolio">
+          <a href="/#portfolio">
             <li className={menuItemStyle}>Portfolio</li>
           </a>
-          <a href="#services">
+          <a href="/#galery">
+            <li className={menuItemStyle}>Galery</li>
+          </a>
+          <a href="/#services">
             <li className={menuItemStyle}>Services</li>
           </a>
-          <a href="#contact">
+          <a href="/#contact">
             <li className={menuItemStyle}>Contact</li>
           </a>
         </ul>

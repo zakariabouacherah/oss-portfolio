@@ -1,9 +1,10 @@
 import Layout from "./components/Layout";
 import "./App.css";
-import HeroSection from "./HeroSection";
-import About from "./About";
-import Skills from "./Skills";
-import PortfoliSection from "./PortfoliSection";
+import HeroSection from "./pages/HeroSection";
+import About from "./pages/About";
+import Skills from "./pages/Skills";
+import PortfoliSection from "./pages/PortfoliSection";
+import Galery from "./pages/Galery";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <About />
         <Skills />
         <PortfoliSection />
+        <Galery />
       </Layout>
     </>
   );
