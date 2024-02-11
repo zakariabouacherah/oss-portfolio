@@ -3,7 +3,7 @@ const Heading = ({ title, background }) => {
     <div className="relative py-4 px-6 text-[#aac4e7] flex items-center justify-center">
       <h1
         className="relative text-6xl font-light z-20 "
-        style={{ textShadow: "0 0 25px #fff" }}
+        style={{ textShadow: "0 0 25px #aac4e7 , 0 0 35px #aac4e7" }}
       >
         {title}
       </h1>

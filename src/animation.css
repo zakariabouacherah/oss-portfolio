@@ -1,0 +1,19 @@
+.dec1 {
+  transition: 0.4s ease-out;
+}
+.dec2 {
+  transition: 0.4s ease-out;
+  transform: translateY(-2rem);
+}
+.dec3 {
+  transition: 0.8s ease-out;
+  transform: translateY(-4rem);
+}
+
+.contai:hover .dec2 {
+  transform: translateY(0);
+}
+
+.contai:hover .dec3 {
+  transform: translateY(0);
+}

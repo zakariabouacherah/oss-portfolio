@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import PortfoliSection from "./pages/PortfoliSection";
 import Galery from "./pages/Galery";
+import Services from "./pages/Services";
+import { Contact } from "./pages/Contact";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Skills />
         <PortfoliSection />
         <Galery />
+        <Services />
+        <Contact />
       </Layout>
     </>
   );
