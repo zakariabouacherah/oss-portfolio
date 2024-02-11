@@ -2,10 +2,10 @@ import { FaFacebookF, FaInstagram, FaBehance, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   const socilaMedia =
-    "text-2xl w-10 h-10 flex items-center justify-center rounded-full border-[1px] border-[#fff]  ";
+    "text-2xl w-10 h-10 flex items-center justify-center rounded-full border-[1px] border-[#141414]  ";
 
   return (
-    <footer className="bg-[#aac4e7] px-16 pt-10 pb-4 flex flex-col items-center">
+    <footer className="bg-[#e9fc87] px-16 pt-10 pb-4 flex flex-col items-center">
       <div className="flex items-center justify-between w-full">
         <div className="flex items-center gap-4">
           <a href="/#home">Home</a>

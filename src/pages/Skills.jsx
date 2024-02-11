@@ -54,7 +54,7 @@ const Skills = () => {
       <div className="text-center mt-16">
         <h1 className="text-3xl font-bold text-slate-50 tracking-widest">
           I'm Available For{" "}
-          <span className="text-slate-400 underline">FreeLance !</span>
+          <span className="text-yellow-50 underline">FreeLance !</span>
         </h1>
       </div>
     </div>

@@ -6,7 +6,7 @@ const About = () => {
   const styledItem =
     "px-4 py-2 text-sm bg-[#fff1] rounded-lg shadow-md cursor-pointer transition hover:shadow-xl";
   const socilaMedia =
-    "text-2xl w-10 h-10 flex items-center justify-center rounded-full bg-transparent border-[1px] border-[#aac4e7] hover:bg-[#aac4e7] hover:border-transparent hover:text-slate-700 ";
+    "text-2xl w-10 h-10 flex items-center justify-center rounded-full bg-transparent border-[1px] border-[#e9fc87] hover:bg-[#e9fc87] hover:border-transparent hover:text-slate-700 ";
   return (
     <section
       id="about"
@@ -28,17 +28,17 @@ const About = () => {
               width="400px"
               alt="img"
               className="relative w-full h-full scale-110 object-cover z-30 "
-              style={{ filter: "drop-shadow(0 0 20px #aac4e783)" }}
+              style={{ filter: "drop-shadow(0 0 20px #e9fc8783)" }}
             />
-            <div className="absolute top-[30px] left-[30px] w-full h-full z-10 border-[10px] border-[#aac4e7] "></div>
+            <div className="absolute top-[30px] left-[30px] w-full h-full z-10 border-[10px] border-[#e9fc87] "></div>
           </div>
         </div>
         <div className="w-[50%] max-w-[600px] text-white flex flex-col gap-2 ">
           <div className="text-lg">
             My name is{" "}
             <span
-              style={{ textShadow: "0 0 40px #aac4e7" }}
-              className="text-[#aac4e7]"
+              style={{ textShadow: "0 0 40px #e9fc87" }}
+              className="text-[#e9fc87]"
             >
               Oussama chid
             </span>
@@ -54,19 +54,19 @@ const About = () => {
           </div>
           <div className="grid grid-cols-2 gap-x-16 gap-y-6 place-content-center text-center">
             <div className={styledItem}>
-              <h2 className="text-[#aac4e7] mb-1">Name</h2>
+              <h2 className="text-[#e9fc87] mb-1">Name</h2>
               <div className="font-semibold ">Oussama Ichid</div>
             </div>
             <div className={styledItem}>
-              <h2 className="text-[#aac4e7] mb-1 ">Phone</h2>
+              <h2 className="text-[#e9fc87] mb-1 ">Phone</h2>
               <div className="font-semibold">+212 600 000 000</div>
             </div>
             <div className={styledItem}>
-              <h2 className="text-[#aac4e7] mb-1 ">Country</h2>
+              <h2 className="text-[#e9fc87] mb-1 ">Country</h2>
               <div className="font-semibold">Morocco</div>
             </div>
             <div className={styledItem}>
-              <h2 className="text-[#aac4e7] mb-1 ">Email</h2>
+              <h2 className="text-[#e9fc87] mb-1 ">Email</h2>
               <div className="font-semibold">oussamaichid@gmail.com</div>
             </div>
           </div>

@@ -11,7 +11,7 @@ const Navbar = () => {
   };
   window.addEventListener("scroll", changeColor);
   const menuItemStyle =
-    "transition hover:text-[#CCE5E3] border-b-[1.5px] border-b-transparent hover:border-b-[#CCE5E3] cursor-pointer";
+    "transition hover:text-[#ffbe98] border-b-[1.5px] border-b-transparent hover:border-b-[#ffbe98] cursor-pointer";
 
   return (
     <nav

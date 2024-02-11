@@ -13,8 +13,8 @@ const SkillItem = ({ title, percentage, icon }) => {
           percent={percentage}
           strokeWidth={2}
           trailWidth={2}
-          strokeColor="#7a9aec"
-          trailColor="#cae4f7"
+          strokeColor="#d9ec77"
+          trailColor="#feffd7"
         />
         <div className="absolute bottom-4 right-2 text-slate-50 text-sm">
           {percentage}%

@@ -21,15 +21,15 @@ const PortfoliSection = () => {
       <div className="z-0 mb-10">
         <Heading title="PORTFOLIO" background="PORTFOLIO" />
       </div>
-      <div className="flex items-center gap-10 text-[#e2e2e2] text-xl">
+      <div className="flex items-center gap-10 text-[#fffeec] text-xl">
         <button
-          className={activeSection === "logos" ? "text-[#7a9aec]" : ""}
+          className={activeSection === "logos" ? "text-[#ffbe98]" : ""}
           onClick={() => handleButtonClick("logos")}
         >
           Logos
         </button>
         <button
-          className={activeSection === "sm" ? "text-[#7a9aec]" : ""}
+          className={activeSection === "sm" ? "text-[#ffbe98]" : ""}
           onClick={() => handleButtonClick("sm")}
         >
           Social Media

@@ -112,7 +112,7 @@ export const Contact = () => {
           <input
             type="submit"
             value="Send"
-            className="bg-[#aac4e7] py-3 rounded-md w-[50%] self-center cursor-pointer text-sky-900 hover:bg-[#a0bbdf] "
+            className="bg-[#e9fc87] py-3 rounded-md w-[50%] self-center cursor-pointer text-[#141414] hover:bg-[#d3e675] "
           />
         </form>
         <div className="absolute h-full w-full rounded-[50%] z-0 top-0 left-0 p-12">

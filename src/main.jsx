@@ -23,7 +23,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Footer />
     </Router>
     <Toaster
-      position="bottom-right"
+      position="top-center"
       // containerClassName="bg-[#aac4e7]"
       // containerStyle={{ background: "#292929", color: "#aac4e7" }}
     />

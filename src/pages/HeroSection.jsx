@@ -11,10 +11,10 @@ const HeroSection = () => {
         <div className="text-9xl font-bold">
           <div>GRAPHIC</div>
           <div>
-            DESIGNER<span className="text-[#aac4e7]">.</span>
+            DESIGNER<span className="text-[#e9fc87]">.</span>
           </div>
         </div>
-        <div className="bg-[#aac4e7] place-self-start text-md px-1 tracking-wide shadow-md">
+        <div className="bg-[#e9fc87] text-black place-self-start text-md px-1 tracking-wide shadow-md">
           CONTACT ME
         </div>
       </div>
