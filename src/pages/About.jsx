@@ -6,39 +6,39 @@ const About = () => {
   const styledItem =
     "px-4 py-2 text-sm bg-[#fff1] rounded-lg shadow-md cursor-pointer transition hover:shadow-xl";
   const socilaMedia =
-    "text-2xl w-10 h-10 flex items-center justify-center rounded-full bg-transparent border-[1px] border-[#e9fc87] hover:bg-[#e9fc87] hover:border-transparent hover:text-slate-700 ";
+    "text-2xl w-10 h-10 flex items-center justify-center rounded-full bg-transparent border-[1px] border-[#b9090b] hover:bg-[#b9090b] hover:border-transparent hover:text-slate-700 ";
   return (
     <section
       id="about"
       // style={bg}
       style={{
-        padding: "120px 8rem",
+        // padding: "120px 8rem",
         backgroundImage: 'url("../public/2.png")',
       }}
-      className=" min-h-screen flex flex-col items-center justify-center gap-10 bg-top px-20 md:px-36 bg-[#000] "
+      className=" min-h-screen bg-cover lg:bg-auto flex flex-col items-center justify-start lg:justify-center gap-10 bg-top px-12 md:px-24 lg:px-32 bg-[#000] "
     >
       <div className="z-0">
         <Heading title="ABOUT ME" background="ABOUT" />
       </div>
-      <div className="flex items-center justify-center  w-full gap-6">
-        <div className="w-[50%] h-[600px] flex items-center justify-center ">
-          <div className="relative z-0 h-[100%] ">
+      <div className="flex flex-col lg:flex-row items-center justify-center  w-full gap-16 lg:gap-6">
+        <div className="w-full lg:w-[50%] h-[400px] lg:h-[600px] flex items-center justify-center ">
+          <div className="relative z-0 h-[100%] pr-4 lg:pr-0 ">
             <img
               src="../public/img1.png"
               width="400px"
               alt="img"
-              className="relative w-full h-full scale-110 object-cover z-30 "
-              style={{ filter: "drop-shadow(0 0 20px #e9fc8783)" }}
+              className="relative w-full h-full scale-110 object-cover z-30 saturate-0 brightness-90 hover:saturate-50 transition-all duration-300 ease-in "
+              // style={{ filter: "drop-shadow(0 0 20px #b9090b83)" }}
             />
-            <div className="absolute top-[30px] left-[30px] w-full h-full z-10 border-[10px] border-[#e9fc87] "></div>
+            <div className="absolute left-[0%] top-[30px] lg:left-[30px] w-full h-full z-10 border-[10px] border-[#b9090b] "></div>
           </div>
         </div>
-        <div className="w-[50%] max-w-[600px] text-white flex flex-col gap-2 ">
+        <div className="w-[80%] lg:w-[50%] h-[400px] lg:h-[600px] text-white flex flex-col justify-center gap-2 ">
           <div className="text-lg">
             My name is{" "}
             <span
-              style={{ textShadow: "0 0 40px #e9fc87" }}
-              className="text-[#e9fc87]"
+              style={{ textShadow: "0 0 20px -10px #b9090b" }}
+              className="text-[#b9090b] font-bold"
             >
               Oussama chid
             </span>
@@ -52,21 +52,21 @@ const About = () => {
             experiences. Join me on a journey where every image and design tells
             a unique story.
           </div>
-          <div className="grid grid-cols-2 gap-x-16 gap-y-6 place-content-center text-center">
+          <div className="grid grid-cols-2 gap-x-14 gap-y-6 place-content-center text-center">
             <div className={styledItem}>
-              <h2 className="text-[#e9fc87] mb-1">Name</h2>
+              <h2 className="text-[#b9090b] mb-1">Name</h2>
               <div className="font-semibold ">Oussama Ichid</div>
             </div>
             <div className={styledItem}>
-              <h2 className="text-[#e9fc87] mb-1 ">Phone</h2>
+              <h2 className="text-[#b9090b] mb-1 ">Phone</h2>
               <div className="font-semibold">+212 600 000 000</div>
             </div>
             <div className={styledItem}>
-              <h2 className="text-[#e9fc87] mb-1 ">Country</h2>
+              <h2 className="text-[#b9090b] mb-1 ">Country</h2>
               <div className="font-semibold">Morocco</div>
             </div>
             <div className={styledItem}>
-              <h2 className="text-[#e9fc87] mb-1 ">Email</h2>
+              <h2 className="text-[#b9090b] mb-1 ">Email</h2>
               <div className="font-semibold">oussamaichid@gmail.com</div>
             </div>
           </div>

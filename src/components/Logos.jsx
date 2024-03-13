@@ -6,13 +6,13 @@ const Logos = () => {
   const imgStyle =
     "w-full h-full object-cover drop-shadow-md cursor-pointer brightness-50 hover:brightness-100 transition-all ease scale-100 hover:scale-105";
   return (
-    <div className="grid grid-cols-4 gap-x-8 gap-y-4">
-      <Link to="/ensueno" className={`${divStyle} col-span-2 `}>
+    <div className="grid grid-cols-1 lg:grid-cols-4 gap-x-8 gap-y-4">
+      <Link to="/ensueno" className={`${divStyle} lg:col-span-2 `}>
         <img
           src="../../public/logos/l1.png"
           width={200}
           alt=""
-          className={imgStyle}
+          className={`${imgStyle}`}
         />
       </Link>
       <div className={`${divStyle} `}>
@@ -47,7 +47,7 @@ const Logos = () => {
           className={imgStyle}
         />
       </div>
-      <div className={`${divStyle} col-span-2 `}>
+      <div className={`${divStyle} lg:col-span-2 `}>
         <img
           src="../../public/logos/l4.png"
           width={200}
@@ -63,7 +63,7 @@ const Logos = () => {
           className={imgStyle}
         />
       </div>
-      <div className={`${divStyle} col-span-2 `}>
+      <div className={`${divStyle} lg:col-span-2 `}>
         <img
           src="../../public/logos/l8.png"
           width={200}

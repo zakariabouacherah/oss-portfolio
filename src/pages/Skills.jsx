@@ -1,5 +1,14 @@
 import Heading from "../components/Heading";
 import SkillItem from "../components/SkillItem";
+import {
+  SiAdobephotoshop,
+  SiAdobeaftereffects,
+  SiAdobeillustrator,
+  SiAdobepremierepro,
+  SiAdobelightroom,
+} from "react-icons/si";
+import { MdPhotoCamera } from "react-icons/md";
+import { IoVideocam } from "react-icons/io5";
 
 const Skills = () => {
   return (
@@ -18,43 +27,39 @@ const Skills = () => {
         <SkillItem
           title="Adobe Illistrator"
           percentage="90"
-          icon="../public/illustrateur1.png"
+          icon={<SiAdobeillustrator />}
         />
         <SkillItem
           title="Adobe Photoshop"
           percentage={75}
-          icon="../public/photoshop.png"
+          icon={<SiAdobephotoshop />}
         />
         <SkillItem
           title="Adobe After Effects"
           percentage="50"
-          icon="../public/ae.png"
+          icon={<SiAdobeaftereffects />}
         />
         <SkillItem
           title="Adobe Premiere Pro"
           percentage="50"
-          icon="../public/pr.png"
+          icon={<SiAdobepremierepro />}
         />
         <SkillItem
           title="Adobe Lightroom"
           percentage="95"
-          icon="../public/lr.png"
+          icon={<SiAdobelightroom />}
         />
         <SkillItem
           title="Photography"
           percentage="80"
-          icon="../public/camera.png"
+          icon={<MdPhotoCamera />}
         />
-        <SkillItem
-          title="Videography"
-          percentage="70"
-          icon="../public/video.png"
-        />
+        <SkillItem title="Videography" percentage="70" icon={<IoVideocam />} />
       </div>
       <div className="text-center mt-16">
         <h1 className="text-3xl font-bold text-slate-50 tracking-widest">
           I'm Available For{" "}
-          <span className="text-yellow-50 underline">FreeLance !</span>
+          <span className="text-[#fcd9cb] underline">FreeLance !</span>
         </h1>
       </div>
     </div>

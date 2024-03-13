@@ -34,6 +34,7 @@ const Videos = () => {
             onMouseLeave={handleMouseLeave(index)}
             onEnded={handleVideoEnded(index)}
             className={videoStyle}
+            controls
           >
             <source
               src={`../../public/videos/v${index + 1}.mp4`}

@@ -2,11 +2,11 @@ import { FaFacebookF, FaInstagram, FaBehance, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   const socilaMedia =
-    "text-2xl w-10 h-10 flex items-center justify-center rounded-full border-[1px] border-[#141414]  ";
+    "text-2xl w-10 h-10 flex items-center justify-center rounded-full border-[1px] border-[#fff]  ";
 
   return (
-    <footer className="bg-[#e9fc87] px-16 pt-10 pb-4 flex flex-col items-center">
-      <div className="flex items-center justify-between w-full">
+    <footer className="bg-[#b9090b] px-16 pt-10 pb-4 flex flex-col items-center">
+      <div className="flex text-white items-center justify-between w-full">
         <div className="flex items-center gap-4">
           <a href="/#home">Home</a>
           <a href="/#about">About</a>
@@ -35,8 +35,8 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="w-[50%] h-[1px] mt-6 bg-neutral-700 opacity-25"></div>
-      <div className="text-sm mt-2 text-neutral-700 opacity-75">
+      <div className="w-[50%] h-[1px] mt-6 bg-neutral-50 opacity-25"></div>
+      <div className="text-sm mt-2 text-neutral-50 opacity-75">
         © 2024 OussamaIchid, Inc. All rights reserved.
       </div>
     </footer>

@@ -16,7 +16,7 @@ const Services = () => {
       }}
       className="  flex flex-col items-center justify-center gap-10 bg-top px-20 md:px-36 bg-[#000] "
     >
-      <div className="z-0 mb-10">
+      <div className="z-0 my-10">
         <Heading title="SERVICES" background="SERVICES" />
       </div>
       <div className="grid grid-cols-3 gap-x-6 gap-y-4 z-0">
