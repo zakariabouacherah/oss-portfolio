@@ -52,7 +52,7 @@ export const Contact = () => {
     <section
       id="contact"
       style={{
-        padding: "120px 8rem",
+        // padding: "120px 8rem",
         backgroundImage: 'url("../public/3.png")',
       }}
       className="z-0 min-h-screen relative flex flex-col items-center justify-center gap-10 bg-top px-20 md:px-36 bg-[#292929] "
@@ -67,7 +67,7 @@ export const Contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="relative z-10 backdrop-blur-lg bg-[#c3c3c330] text-[#EDEDDF] flex flex-col justify-center gap-8 rounded-md shadow-md p-4 md:p-8 max-w-full w-[750px] min-h-[460px]"
+          className="relative z-10 backdrop-blur-lg bg-[#c3c3c330] text-[#EDEDDF] flex flex-col justify-center gap-8 rounded-md shadow-md p-4 md:p-8 max-w-full lg:w-[750px] lg:min-h-[460px]"
         >
           <div className="flex flex-col relative">
             <label>Name</label>

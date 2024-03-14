@@ -5,9 +5,9 @@ const Footer = () => {
     "text-2xl w-10 h-10 flex items-center justify-center rounded-full border-[1px] border-[#fff]  ";
 
   return (
-    <footer className="bg-[#b9090b] px-16 pt-10 pb-4 flex flex-col items-center">
-      <div className="flex text-white items-center justify-between w-full">
-        <div className="flex items-center gap-4">
+    <footer className="bg-[#b9090b] px-16 pt-10 pb-4 flex overflow-hidden flex-col items-center">
+      <div className="flex flex-col lg:flex-row text-white items-center justify-between gap-4 w-full">
+        <div className="flex flex-col md:flex-row items-center gap-4">
           <a href="/#home">Home</a>
           <a href="/#about">About</a>
           <a href="/#skills">Skills</a>

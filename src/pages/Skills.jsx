@@ -57,9 +57,9 @@ const Skills = () => {
         <SkillItem title="Videography" percentage="70" icon={<IoVideocam />} />
       </div>
       <div className="text-center mt-16">
-        <h1 className="text-3xl font-bold text-slate-50 tracking-widest">
+        <h1 className="text-xl md:text-3xl font-bold text-slate-50 tracking-widest">
           I'm Available For{" "}
-          <span className="text-[#fcd9cb] underline">FreeLance !</span>
+          <span className="text-[#b9090b] underline">FreeLance !</span>
         </h1>
       </div>
     </div>

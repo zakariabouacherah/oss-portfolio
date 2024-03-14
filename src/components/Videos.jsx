@@ -20,19 +20,19 @@ const Videos = () => {
   const divStyle =
     "h-[200px] lg:h-[350px] overflow-hidden flex items-center justify-center  shadow-lg ";
   const videoStyle =
-    "w-full h-full object-cover drop-shadow-md cursor-pointer brightness-50 hover:brightness-100 transition-all ease";
+    "w-full h-full object-cover drop-shadow-md cursor-pointer lg:brightness-50 hover:brightness-100 transition-all ease";
 
   return (
-    <div className="grid grid-cols-2 gap-x-8 gap-4">
+    <div className="grid lg:grid-cols-2 gap-x-8 gap-4">
       {videoRefs.map((videoRef, index) => (
         <div className={`${divStyle}`} key={index}>
           <video
             ref={videoRef}
             width={400}
             muted
-            onMouseEnter={handleMouseEnter(index)}
-            onMouseLeave={handleMouseLeave(index)}
-            onEnded={handleVideoEnded(index)}
+            // onMouseEnter={handleMouseEnter(index)}
+            // onMouseLeave={handleMouseLeave(index)}
+            // onEnded={handleVideoEnded(index)}
             className={videoStyle}
             controls
           >

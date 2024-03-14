@@ -12,13 +12,15 @@ const PortfoliSection = () => {
   return (
     <section
       id="portfolio"
-      style={{
-        // padding: "120px 8rem",
-        backgroundImage: 'url("../public/2.png")',
-      }}
-      className=" min-h-screen bg-cover lg:bg-auto flex flex-col items-center justify-start lg:justify-center gap-10 bg-top py-6 px-12 md:px-24 lg:px-32 bg-[#000] "
+      style={
+        {
+          // padding: "120px 8rem",
+          // backgroundImage: 'url("../public/2.png")',
+        }
+      }
+      className=" min-h-screen bg-cover lg:bg-auto flex flex-col items-center justify-start lg:justify-center gap-10 bg-top pt-32 px-12 md:px-24 lg:px-32 bg-[#000] "
     >
-      <div className="z-0 my-10">
+      <div className="z-0 lg:my-10">
         <Heading title="PORTFOLIO" background="PORTFOLIO" />
       </div>
       <div className="flex items-center gap-10 text-[#ffffff] text-lg">

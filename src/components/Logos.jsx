@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Logos = () => {
   const divStyle =
-    "h-[200px] lg:h-[250px] overflow-hidden flex items-center justify-center rounded-sm bg-white lg:bg-transparent";
+    "h-[200px] lg:h-[250px] overflow-hidden flex items-center justify-center rounded-sm  lg:bg-transparent";
   const imgStyle =
     "w-full h-full object-cover drop-shadow-md cursor-pointer lg:brightness-50 hover:brightness-100 transition-all ease scale-100 hover:scale-105";
   return (
