@@ -13,10 +13,10 @@ const PortfoliSection = () => {
     <section
       id="portfolio"
       style={{
-        padding: "120px 8rem",
+        // padding: "120px 8rem",
         backgroundImage: 'url("../public/2.png")',
       }}
-      className=" min-h-screen flex flex-col items-center justify-center gap-10 bg-top px-20 md:px-36 bg-[#000] "
+      className=" min-h-screen bg-cover lg:bg-auto flex flex-col items-center justify-start lg:justify-center gap-10 bg-top py-6 px-12 md:px-24 lg:px-32 bg-[#000] "
     >
       <div className="z-0 my-10">
         <Heading title="PORTFOLIO" background="PORTFOLIO" />

@@ -15,15 +15,15 @@ const Skills = () => {
     <div
       id="skills"
       style={{
-        padding: "120px 8rem",
+        // padding: "120px 8rem",
         backgroundImage: 'url("../public/3.png")',
       }}
-      className=" min-h-screen flex flex-col justify-center px-20 bg-top md:px-32 bg-[#292929]"
+      className=" lg:h-screen flex flex-col justify-center  bg-top bg-cover lg:bg-auto bg-[#292929] px-12 md:px-24 lg:px-32"
     >
-      <div className="z-0 mb-10">
+      <div className="z-0 ">
         <Heading title="SKILLS" background="SKILLS" />
       </div>
-      <div className="grid grid-cols-2 gap-x-16 gap-y-20 mt-16">
+      <div className="grid lg:grid-cols-2 gap-x-16 gap-y-20 mt-16">
         <SkillItem
           title="Adobe Illistrator"
           percentage="90"

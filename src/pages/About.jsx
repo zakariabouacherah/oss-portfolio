@@ -15,12 +15,12 @@ const About = () => {
         // padding: "120px 8rem",
         backgroundImage: 'url("../public/2.png")',
       }}
-      className=" min-h-screen bg-cover lg:bg-auto flex flex-col items-center justify-start lg:justify-center gap-10 bg-top px-12 md:px-24 lg:px-32 bg-[#000] "
+      className=" lg:h-screen bg-cover lg:bg-auto flex flex-col items-center justify-start lg:justify-center gap-10 bg-top py-6 px-12 md:px-24 lg:px-32 bg-[#000] "
     >
       <div className="z-0">
         <Heading title="ABOUT ME" background="ABOUT" />
       </div>
-      <div className="flex flex-col lg:flex-row items-center justify-center  w-full gap-16 lg:gap-6">
+      <div className="flex flex-col lg:flex-row items-center lg:justify-center  w-full gap-16 lg:gap-6">
         <div className="w-full lg:w-[50%] h-[400px] lg:h-[600px] flex items-center justify-center ">
           <div className="relative z-0 h-[100%] pr-4 lg:pr-0 ">
             <img
@@ -33,7 +33,7 @@ const About = () => {
             <div className="absolute left-[0%] top-[30px] lg:left-[30px] w-full h-full z-10 border-[10px] border-[#b9090b] "></div>
           </div>
         </div>
-        <div className="w-[80%] lg:w-[50%] h-[400px] lg:h-[600px] text-white flex flex-col justify-center gap-2 ">
+        <div className="w-[100%] lg:w-[50%] h-[640px] lg:h-[60px] text-white flex flex-col justify-center gap-2 ">
           <div className="text-lg">
             My name is{" "}
             <span
@@ -52,7 +52,7 @@ const About = () => {
             experiences. Join me on a journey where every image and design tells
             a unique story.
           </div>
-          <div className="grid grid-cols-2 gap-x-14 gap-y-6 place-content-center text-center">
+          <div className="grid lg:grid-cols-2 gap-x-14 gap-y-6 place-content-center text-center">
             <div className={styledItem}>
               <h2 className="text-[#b9090b] mb-1">Name</h2>
               <div className="font-semibold ">Oussama Ichid</div>
@@ -70,7 +70,7 @@ const About = () => {
               <div className="font-semibold">oussamaichid@gmail.com</div>
             </div>
           </div>
-          <div className="flex justify-center items-center gap-6 mt-8">
+          <div className="flex justify-center items-center gap-6 mb-8 mt-4 lg:mt-8">
             <a href="#" className={socilaMedia}>
               <FaFacebookF />
             </a>

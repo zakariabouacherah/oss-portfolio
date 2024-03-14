@@ -16,7 +16,7 @@ const Galery = () => {
         padding: "120px 8rem",
         backgroundImage: 'url("../public/3.png")',
       }}
-      className=" min-h-screen flex flex-col items-center justify-center gap-10 bg-top px-20 md:px-36 bg-[#292929] "
+      className=" min-h-screen flex flex-col justify-center  bg-top bg-cover lg:bg-auto bg-[#292929] px-12 md:px-24 lg:px-32 "
     >
       <div className="z-0 my-10">
         <Heading title="GALERY" background="GALERY" />
