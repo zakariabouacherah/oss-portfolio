@@ -14,7 +14,7 @@ const Services = () => {
         // padding: "120px 8rem",
         backgroundImage: 'url("../public/2.png")',
       }}
-      className="  flex flex-col items-center justify-center gap-10 bg-top bg-cover lg:bg-auto pt-6 lg:pt-28 px-20 md:px-36 bg-[#000] "
+      className="  flex flex-col items-center justify-center gap-10 bg-top bg-cover lg:bg-auto pt-6 pb-16 lg:pt-28 px-12 md:px-36 bg-[#000] "
     >
       <div className="z-0 my-10">
         <Heading title="SERVICES" background="SERVICES" />

@@ -20,14 +20,14 @@ const About = () => {
       <div className="z-0">
         <Heading title="ABOUT ME" background="ABOUT" />
       </div>
-      <div className="flex flex-col lg:flex-row items-center lg:justify-center  w-full gap-16 lg:gap-6">
+      <div className="flex flex-col lg:flex-row items-center lg:justify-center  w-full gap-20 lg:gap-6">
         <div className="w-full lg:w-[50%] h-[400px] lg:h-[600px] flex items-center justify-center ">
           <div className="relative z-0 h-[100%] pr-4 lg:pr-0 ">
             <img
               src="../public/img1.png"
               width="400px"
               alt="img"
-              className="relative w-full h-full scale-110 object-cover z-30 saturate-0 brightness-90 hover:saturate-50 transition-all duration-300 ease-in "
+              className="relative w-full h-full scale-110 object-cover z-30  lg:saturate-0 brightness-90 hover:saturate-50 transition-all duration-300 ease-in "
               // style={{ filter: "drop-shadow(0 0 20px #b9090b83)" }}
             />
             <div className="absolute left-[0%] top-[30px] lg:left-[30px] w-full h-full z-10 border-[10px] border-[#b9090b] "></div>
@@ -59,7 +59,7 @@ const About = () => {
             </div>
             <div className={styledItem}>
               <h2 className="text-[#b9090b] mb-1 ">Phone</h2>
-              <div className="font-semibold">+212 600 000 000</div>
+              <div className="font-semibold">+212 613 615 444</div>
             </div>
             <div className={styledItem}>
               <h2 className="text-[#b9090b] mb-1 ">Country</h2>
@@ -67,7 +67,7 @@ const About = () => {
             </div>
             <div className={styledItem}>
               <h2 className="text-[#b9090b] mb-1 ">Email</h2>
-              <div className="font-semibold">oussamaichid@gmail.com</div>
+              <div className="font-semibold">ossama.ichid12@gmail.com</div>
             </div>
           </div>
           <div className="flex justify-center items-center gap-6 mb-8 mt-4 lg:mt-8">

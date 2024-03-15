@@ -55,12 +55,12 @@ export const Contact = () => {
         // padding: "120px 8rem",
         backgroundImage: 'url("../public/3.png")',
       }}
-      className="z-0 min-h-screen relative flex flex-col items-center justify-center gap-10 bg-top px-20 md:px-36 bg-[#292929] "
+      className="z-0 min-h-screen relative flex flex-col items-center lg:justify-center gap-10 bg-top bg-cover lg:bg-auto px-20 md:px-36 bg-[#292929] "
     >
       <div className="z-0 mb-10">
-        <Heading title="CONTACT ME" background="CONTACT" />
+        <Heading title="CONTACT" background="CONTACT" />
       </div>
-      <p className="text-white w-[70%] text-center text-xl ">
+      <p className="text-white lg:w-[70%] text-center text-xl ">
         Let's talk about your next project
       </p>
       <div className="relative">
