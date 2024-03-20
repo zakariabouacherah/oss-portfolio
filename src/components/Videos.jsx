@@ -42,7 +42,7 @@ const Videos = () => {
             // onEnded={handleVideoEnded(index)}
           >
             <source
-              src={`../../public/videos/video${index + 1}.mp4`}
+              src={`../../src/assets/videos/video${index + 1}.mp4`}
               type="video/mp4"
             />
             Your browser does not support the video tag.

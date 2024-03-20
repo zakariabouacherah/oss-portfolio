@@ -9,7 +9,7 @@ const Logos = () => {
     <div className="grid grid-cols-1 lg:grid-cols-4 gap-x-8 gap-y-4">
       <Link to="/ensueno" className={`${divStyle} lg:col-span-2 `}>
         <img
-          src="../../public/logos/l1.png"
+          src="../../src/assets/logos/l1.png"
           width={200}
           alt=""
           className={`${imgStyle}`}
@@ -17,7 +17,7 @@ const Logos = () => {
       </Link>
       <div className={`${divStyle} `}>
         <img
-          src="../../public/logos/l2.png"
+          src="../../src/assets/logos/l2.png"
           width={200}
           alt=""
           className={imgStyle}
@@ -25,7 +25,7 @@ const Logos = () => {
       </div>
       <div className={`${divStyle} `}>
         <img
-          src="../../public/logos/l3.png"
+          src="../../src/assets/logos/l3.png"
           width={200}
           alt=""
           className={imgStyle}
@@ -33,7 +33,7 @@ const Logos = () => {
       </div>
       <div className={`${divStyle} `}>
         <img
-          src="../../public/logos/l5.png"
+          src="../../src/assets/logos/l5.png"
           width={200}
           alt=""
           className={imgStyle}
@@ -41,7 +41,7 @@ const Logos = () => {
       </div>
       <div className={`${divStyle}`}>
         <img
-          src="../../public/logos/l7.png"
+          src="../../src/assets/logos/l7.png"
           width={200}
           alt=""
           className={imgStyle}
@@ -49,7 +49,7 @@ const Logos = () => {
       </div>
       <div className={`${divStyle} lg:col-span-2 `}>
         <img
-          src="../../public/logos/l4.png"
+          src="../../src/assets/logos/l4.png"
           width={200}
           alt=""
           className={imgStyle}
@@ -57,7 +57,7 @@ const Logos = () => {
       </div>
       <div className={`${divStyle} `}>
         <img
-          src="../../public/logos/l6.png"
+          src="../../src/assets/logos/l6.png"
           width={200}
           alt=""
           className={imgStyle}
@@ -65,7 +65,7 @@ const Logos = () => {
       </div>
       <div className={`${divStyle} lg:col-span-2 `}>
         <img
-          src="../../public/logos/l8.png"
+          src="../../src/assets/logos/l8.png"
           width={200}
           alt=""
           className={imgStyle}
@@ -73,7 +73,7 @@ const Logos = () => {
       </div>
       <Link to="/rci" className={`${divStyle} `}>
         <img
-          src="../../public/logos/l9.png"
+          src="../../src/assets/logos/l9.png"
           width={200}
           alt=""
           className={imgStyle}

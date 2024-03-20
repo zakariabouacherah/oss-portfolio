@@ -13,7 +13,7 @@ const About = () => {
       // style={bg}
       style={{
         // padding: "120px 8rem",
-        backgroundImage: 'url("../public/2.png")',
+        backgroundImage: 'url("../src/assets/2.png")',
       }}
       className=" lg:h-screen bg-cover lg:bg-auto flex flex-col items-center justify-start lg:justify-center gap-10 bg-top py-6 px-12 md:px-24 lg:px-32 bg-[#000] "
     >
@@ -24,7 +24,7 @@ const About = () => {
         <div className="w-full lg:w-[50%] h-[400px] lg:h-[600px] flex items-center justify-center ">
           <div className="relative z-0 h-[100%] pr-4 lg:pr-0 ">
             <img
-              src="../public/img1.png"
+              src="../src/assets/img1.png"
               width="400px"
               alt="img"
               className="relative w-full h-full scale-110 object-cover z-30  lg:saturate-0 brightness-90 hover:saturate-50 transition-all duration-300 ease-in "

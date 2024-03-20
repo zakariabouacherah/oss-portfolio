@@ -86,7 +86,7 @@ const Navbar = () => {
           className="w-10 h-10 bg-gradient-to-b from-[#e8c365bd] to-[#b9090c3f] shadow-md rounded-full flex items-center justify-center"
         >
           <img
-            src="../../public/Profile.png"
+            src="../../src/assets/Profile.png"
             alt="avatar"
             className="w-10 h-10 object-contain rounded-full"
           />
