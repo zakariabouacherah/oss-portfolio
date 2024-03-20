@@ -32,11 +32,11 @@ const Videos = () => {
           key={index}
         >
           <video
-            ref={videoRef}
+            // ref={videoRef}
             width="100%"
-            muted
+            // muted
             className="video"
-            controls
+            controls={true}
             // onMouseEnter={handleMouseEnter(index)}
             // onMouseLeave={handleMouseLeave(index)}
             // onEnded={handleVideoEnded(index)}
