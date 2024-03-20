@@ -47,22 +47,22 @@ const Branding3 = () => {
         className="mySwiper2"
       >
         <SwiperSlide>
-          <img src="../../../public/branding3/br01.jpg" />
+          <img src="../../../src/assets/branding3/br01.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../public/branding3/br02.jpg" />
+          <img src="../../../src/assets/branding3/br02.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../public/branding3/br03.jpg" />
+          <img src="../../../src/assets/branding3/br03.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../public/branding3/br04.jpg" />
+          <img src="../../../src/assets/branding3/br04.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../public/branding3/br05.jpg" />
+          <img src="../../../src/assets/branding3/br05.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../public/branding3/br06.jpg" />
+          <img src="../../../src/assets/branding3/br06.jpg" />
         </SwiperSlide>
       </Swiper>
     </div>

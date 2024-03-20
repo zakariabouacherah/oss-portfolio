@@ -27,10 +27,10 @@ const Photos = () => {
         <div className="grid lg:grid-cols-5 gap-x-8 gap-4">
           <div
             className={`${divStyle}`}
-            onClick={() => openModal("../../public/galery/sg1.jpg")}
+            onClick={() => openModal("../../src/assets/galery/sg1.jpg")}
           >
             <img
-              src="../../public/galery/sg1.jpg"
+              src="../../src/assets/galery/sg1.jpg"
               width={200}
               alt=""
               className={imgStyle}
@@ -38,10 +38,10 @@ const Photos = () => {
           </div>
           <div
             className={`${divStyle} lg:col-span-2`}
-            onClick={() => openModal("../../public/galery/sg2.jpg")}
+            onClick={() => openModal("../../src/assets/galery/sg2.jpg")}
           >
             <img
-              src="../../public/galery/sg2.jpg"
+              src="../../src/assets/galery/sg2.jpg"
               width={200}
               alt=""
               className={imgStyle}
@@ -49,10 +49,10 @@ const Photos = () => {
           </div>
           <div
             className={`${divStyle}`}
-            onClick={() => openModal("../../public/galery/sg5.jpg")}
+            onClick={() => openModal("../../src/assets/galery/sg5.jpg")}
           >
             <img
-              src="../../public/galery/sg5.jpg"
+              src="../../src/assets/galery/sg5.jpg"
               width={200}
               alt=""
               className={imgStyle}
@@ -60,10 +60,10 @@ const Photos = () => {
           </div>
           <div
             className={`${divStyle}`}
-            onClick={() => openModal("../../public/galery/sg3.jpg")}
+            onClick={() => openModal("../../src/assets/galery/sg3.jpg")}
           >
             <img
-              src="../../public/galery/sg3.jpg"
+              src="../../src/assets/galery/sg3.jpg"
               width={200}
               alt=""
               className={imgStyle}
@@ -76,10 +76,10 @@ const Photos = () => {
         <div className="grid lg:grid-cols-5 gap-x-8 gap-4">
           <div
             className={`${divStyle}`}
-            onClick={() => openModal("../../public/galery/sushi3.jpg")}
+            onClick={() => openModal("../../src/assets/galery/sushi3.jpg")}
           >
             <img
-              src="../../public/galery/sushi3.jpg"
+              src="../../src/assets/galery/sushi3.jpg"
               width={200}
               alt=""
               className={imgStyle}
@@ -87,10 +87,10 @@ const Photos = () => {
           </div>
           <div
             className={`${divStyle} lg:col-span-3`}
-            onClick={() => openModal("../../public/galery/sushi1.jpg")}
+            onClick={() => openModal("../../src/assets/galery/sushi1.jpg")}
           >
             <img
-              src="../../public/galery/sushi1.jpg"
+              src="../../src/assets/galery/sushi1.jpg"
               width={200}
               alt=""
               className={imgStyle}
@@ -98,10 +98,10 @@ const Photos = () => {
           </div>
           <div
             className={`${divStyle}`}
-            onClick={() => openModal("../../public/galery/sushi5.jpg")}
+            onClick={() => openModal("../../src/assets/galery/sushi5.jpg")}
           >
             <img
-              src="../../public/galery/sushi5.jpg"
+              src="../../src/assets/galery/sushi5.jpg"
               width={200}
               alt=""
               className={imgStyle}
@@ -109,10 +109,10 @@ const Photos = () => {
           </div>
           <div
             className={`${divStyle} lg:col-span-2`}
-            onClick={() => openModal("../../public/galery/sushi2.jpg")}
+            onClick={() => openModal("../../src/assets/galery/sushi2.jpg")}
           >
             <img
-              src="../../public/galery/sushi2.jpg"
+              src="../../src/assets/galery/sushi2.jpg"
               width={200}
               alt=""
               className={imgStyle}
@@ -120,10 +120,10 @@ const Photos = () => {
           </div>
           <div
             className={`${divStyle} lg:col-span-3`}
-            onClick={() => openModal("../../public/galery/sushi4.jpg")}
+            onClick={() => openModal("../../src/assets/galery/sushi4.jpg")}
           >
             <img
-              src="../../public/galery/sushi4.jpg"
+              src="../../src/assets/galery/sushi4.jpg"
               width={200}
               alt=""
               className={imgStyle}
@@ -136,10 +136,10 @@ const Photos = () => {
         <div className="grid lg:grid-cols-5 gap-x-8 gap-4">
           <div
             className={`${divStyle} lg:col-span-3`}
-            onClick={() => openModal("../../public/galery/chess1.jpg")}
+            onClick={() => openModal("../../src/assets/galery/chess1.jpg")}
           >
             <img
-              src="../../public/galery/chess1.jpg"
+              src="../../src/assets/galery/chess1.jpg"
               width={200}
               alt=""
               className={imgStyle}
@@ -148,10 +148,10 @@ const Photos = () => {
 
           <div
             className={`${divStyle} lg:col-span-2`}
-            onClick={() => openModal("../../public/galery/chess5.jpg")}
+            onClick={() => openModal("../../src/assets/galery/chess5.jpg")}
           >
             <img
-              src="../../public/galery/chess5.jpg"
+              src="../../src/assets/galery/chess5.jpg"
               width={200}
               alt=""
               className={imgStyle}
@@ -159,10 +159,10 @@ const Photos = () => {
           </div>
           <div
             className={`${divStyle}`}
-            onClick={() => openModal("../../public/galery/chess2.jpg")}
+            onClick={() => openModal("../../src/assets/galery/chess2.jpg")}
           >
             <img
-              src="../../public/galery/chess2.jpg"
+              src="../../src/assets/galery/chess2.jpg"
               width={200}
               alt=""
               className={imgStyle}
@@ -170,10 +170,10 @@ const Photos = () => {
           </div>
           <div
             className={`${divStyle} lg:col-span-3`}
-            onClick={() => openModal("../../public/galery/chess4.jpg")}
+            onClick={() => openModal("../../src/assets/galery/chess4.jpg")}
           >
             <img
-              src="../../public/galery/chess4.jpg"
+              src="../../src/assets/galery/chess4.jpg"
               width={200}
               alt=""
               className={imgStyle}
@@ -181,10 +181,10 @@ const Photos = () => {
           </div>
           <div
             className={`${divStyle}`}
-            onClick={() => openModal("../../public/galery/chess3.jpg")}
+            onClick={() => openModal("../../src/assets/galery/chess3.jpg")}
           >
             <img
-              src="../../public/galery/chess3.jpg"
+              src="../../src/assets/galery/chess3.jpg"
               width={200}
               alt=""
               className={imgStyle}

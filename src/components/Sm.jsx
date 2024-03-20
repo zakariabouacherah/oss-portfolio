@@ -7,31 +7,76 @@ const Sm = () => {
   return (
     <div className="flex items-center justify-center flex-wrap  gap-x-4 gap-y-8">
       <div className={`${divStyle}`}>
-        <img src="../public/sm1.jpg" width={300} alt="" className={imgStyle} />
+        <img
+          src="../src/assets/sm1.jpg"
+          width={300}
+          alt=""
+          className={imgStyle}
+        />
       </div>
       <div className={`${divStyle}`}>
-        <img src="../public/sm2.jpg" width={300} alt="" className={imgStyle} />
+        <img
+          src="../src/assets/sm2.jpg"
+          width={300}
+          alt=""
+          className={imgStyle}
+        />
       </div>
       <div className={`${divStyle}`}>
-        <img src="../public/sm3.jpg" width={300} alt="" className={imgStyle} />
+        <img
+          src="../src/assets/sm3.jpg"
+          width={300}
+          alt=""
+          className={imgStyle}
+        />
       </div>
       <div className={`${divStyle}`}>
-        <img src="../public/sm4.jpg" width={300} alt="" className={imgStyle} />
+        <img
+          src="../src/assets/sm4.jpg"
+          width={300}
+          alt=""
+          className={imgStyle}
+        />
       </div>
       <div className={`${divStyle}`}>
-        <img src="../public/sm5.jpg" width={300} alt="" className={imgStyle} />
+        <img
+          src="../src/assets/sm5.jpg"
+          width={300}
+          alt=""
+          className={imgStyle}
+        />
       </div>
       <div className={`${divStyle}`}>
-        <img src="../public/sm6.jpg" width={300} alt="" className={imgStyle} />
+        <img
+          src="../src/assets/sm6.jpg"
+          width={300}
+          alt=""
+          className={imgStyle}
+        />
       </div>
       <div className={`${divStyle}`}>
-        <img src="../public/sm7.jpg" width={300} alt="" className={imgStyle} />
+        <img
+          src="../src/assets/sm7.jpg"
+          width={300}
+          alt=""
+          className={imgStyle}
+        />
       </div>
       <div className={`${divStyle}`}>
-        <img src="../public/sm8.jpg" width={300} alt="" className={imgStyle} />
+        <img
+          src="../src/assets/sm8.jpg"
+          width={300}
+          alt=""
+          className={imgStyle}
+        />
       </div>
       <div className={`${divStyle}`}>
-        <img src="../public/sm9.jpg" width={300} alt="" className={imgStyle} />
+        <img
+          src="../src/assets/sm9.jpg"
+          width={300}
+          alt=""
+          className={imgStyle}
+        />
       </div>
     </div>
   );
