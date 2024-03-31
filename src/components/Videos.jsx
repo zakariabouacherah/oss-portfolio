@@ -1,7 +1,13 @@
 import React, { useRef } from "react";
+import video1 from "../assets/videos/video1.mp4";
+import video2 from "../assets/videos/video2.mp4";
+import video3 from "../assets/videos/video3.mp4";
+import video4 from "../assets/videos/video4.mp4";
 
 const Videos = () => {
   const videoRefs = Array.from({ length: 4 }, () => useRef(null));
+
+  const videos = [video1, video2, video3, video4];
 
   const handleMouseEnter = (index) => () => {
     videoRefs[index].current.play();
@@ -26,7 +32,7 @@ const Videos = () => {
 
   return (
     <div className="grid lg:grid-cols-2 gap-x-8 gap-4">
-      {videoRefs.map((videoRef, index) => (
+      {videos.map((video, index) => (
         <div
           className={`video-container ${getVideoAspectClass(index)}`}
           key={index}
@@ -41,10 +47,7 @@ const Videos = () => {
             // onMouseLeave={handleMouseLeave(index)}
             // onEnded={handleVideoEnded(index)}
           >
-            <source
-              src={`../../src/assets/videos/video${index + 1}.mp4`}
-              type="video/mp4"
-            />
+            <source src={video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

@@ -25,7 +25,7 @@ const About = () => {
         <div className="w-full lg:w-[50%] h-[400px] lg:h-[600px] flex items-center justify-center ">
           <div className="relative z-0 h-[100%] pr-4 lg:pr-0 ">
             <img
-              src="../src/assets/img1.png"
+              src={photo}
               width="400px"
               alt="img"
               className="relative w-full h-full scale-110 object-cover z-30  lg:saturate-0 brightness-90 hover:saturate-50 transition-all duration-300 ease-in "

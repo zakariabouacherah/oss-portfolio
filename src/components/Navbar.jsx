@@ -34,7 +34,6 @@ const Navbar = () => {
   const closeNavbar = () => {
     setIsOpen(false);
   };
-  console.log(isOpen);
 
   useEffect(() => {
     const isHomePage = window.location.pathname === "/";
