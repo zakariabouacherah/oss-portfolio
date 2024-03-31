@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaBars, FaXmark } from "react-icons/fa6";
+import logo from "../assets/Profile.png";
 
 const MENU_ITEMS = [
   { id: "home", label: "Home", scrollPosition: 927 },
@@ -86,7 +87,7 @@ const Navbar = () => {
           className="w-10 h-10 bg-gradient-to-b from-[#e8c365bd] to-[#b9090c3f] shadow-md rounded-full flex items-center justify-center"
         >
           <img
-            src="../../src/assets/Profile.png"
+            src={logo}
             alt="avatar"
             className="w-10 h-10 object-contain rounded-full"
           />
