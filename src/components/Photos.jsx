@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import { MdClose } from "react-icons/md";
+import photo1 from "../assets/galery/sg1.jpg";
+import photo2 from "../assets/galery/sg2.jpg";
+import photo3 from "../assets/galery/sg5.jpg";
+import photo4 from "../assets/galery/sg3.jpg";
 
 const Photos = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -25,49 +29,20 @@ const Photos = () => {
       <div className="flex flex-col gap-4">
         <h1 className="text-xl">SOUSS GAZ</h1>
         <div className="grid lg:grid-cols-5 gap-x-8 gap-4">
-          <div
-            className={`${divStyle}`}
-            onClick={() => openModal("../../src/assets/galery/sg1.jpg")}
-          >
-            <img
-              src="../../src/assets/galery/sg1.jpg"
-              width={200}
-              alt=""
-              className={imgStyle}
-            />
+          <div className={`${divStyle}`} onClick={() => openModal(photo1)}>
+            <img src={photo1} width={200} alt="photo1" className={imgStyle} />
           </div>
           <div
             className={`${divStyle} lg:col-span-2`}
-            onClick={() => openModal("../../src/assets/galery/sg2.jpg")}
+            onClick={() => openModal(photo2)}
           >
-            <img
-              src="../../src/assets/galery/sg2.jpg"
-              width={200}
-              alt=""
-              className={imgStyle}
-            />
+            <img src={photo2} width={200} alt="" className={imgStyle} />
           </div>
-          <div
-            className={`${divStyle}`}
-            onClick={() => openModal("../../src/assets/galery/sg5.jpg")}
-          >
-            <img
-              src="../../src/assets/galery/sg5.jpg"
-              width={200}
-              alt=""
-              className={imgStyle}
-            />
+          <div className={`${divStyle}`} onClick={() => openModal(photo3)}>
+            <img src={photo3} width={200} alt="" className={imgStyle} />
           </div>
-          <div
-            className={`${divStyle}`}
-            onClick={() => openModal("../../src/assets/galery/sg3.jpg")}
-          >
-            <img
-              src="../../src/assets/galery/sg3.jpg"
-              width={200}
-              alt=""
-              className={imgStyle}
-            />
+          <div className={`${divStyle}`} onClick={() => openModal(photo4)}>
+            <img src={photo4} width={200} alt="" className={imgStyle} />
           </div>
         </div>
       </div>

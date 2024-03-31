@@ -1,5 +1,6 @@
 import Heading from "../components/Heading";
 import { FaFacebookF, FaInstagram, FaBehance, FaTwitter } from "react-icons/fa";
+import photo from "../assets/img1.png";
 
 const About = () => {
   // const bg = { backgroundImage: 'url("../public/bg3.png")' };
