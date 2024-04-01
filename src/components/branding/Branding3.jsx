@@ -12,17 +12,23 @@ import "swiper/css/thumbs";
 
 import "./style.css";
 import Heading from "../Heading";
+import image1 from "../../assets/branding3/br01.jpg";
+import image2 from "../../assets/branding3/br02.jpg";
+import image3 from "../../assets/branding3/br03.jpg";
+import image4 from "../../assets/branding3/br04.jpg";
+import image5 from "../../assets/branding3/br05.jpg";
+import image6 from "../../assets/branding3/br06.jpg";
 
 const Branding3 = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
     <div
-      style={{ padding: "120px 8rem" }}
-      className="min-h-screen w-screen pt-16 bg-[#7b7b7b] flex flex-col items-center gap-16"
+      // style={{ padding: "120px 8rem" }}
+      className="min-h-screen w-screen px-6 py-36 lg:px-28 bg-[#000] flex flex-col items-center gap-16"
     >
       <div className="text-white">
-        <Heading title="COTRALOG" background={"COTRALOG"} />
+        <Heading title="RCI" background={"COTRALOG"} />
         <p className="text-center">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
           incidunt voluptate mollitia blanditiis ipsa, necessitatibus iste
@@ -47,22 +53,22 @@ const Branding3 = () => {
         className="mySwiper2"
       >
         <SwiperSlide>
-          <img src="../../../src/assets/branding3/br01.jpg" />
+          <img src={image1} alt="branding" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../src/assets/branding3/br02.jpg" />
+          <img src={image2} alt="branding" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../src/assets/branding3/br03.jpg" />
+          <img src={image3} alt="branding" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../src/assets/branding3/br04.jpg" />
+          <img src={image4} alt="branding" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../src/assets/branding3/br05.jpg" />
+          <img src={image5} alt="branding" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../src/assets/branding3/br06.jpg" />
+          <img src={image6} alt="branding" />
         </SwiperSlide>
       </Swiper>
     </div>

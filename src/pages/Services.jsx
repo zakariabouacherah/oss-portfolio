@@ -5,6 +5,7 @@ import { BiSolidVideos } from "react-icons/bi";
 import { HiOutlineSpeakerphone } from "react-icons/hi";
 import { BsFillCameraReelsFill } from "react-icons/bs";
 import { FaFilm } from "react-icons/fa6";
+import bg from "../assets/2.png";
 
 const Services = () => {
   return (
@@ -12,7 +13,7 @@ const Services = () => {
       id="services"
       style={{
         // padding: "120px 8rem",
-        backgroundImage: 'url("../public/2.png")',
+        backgroundImage: `url(${bg})`,
       }}
       className="  flex flex-col items-center justify-center gap-10 bg-top bg-cover lg:bg-auto pt-6 pb-16 lg:pt-28 px-12 md:px-36 bg-[#000] "
     >

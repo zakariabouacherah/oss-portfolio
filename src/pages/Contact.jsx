@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Heading from "../components/Heading";
 import toast from "react-hot-toast";
+import bg from "../assets/3.png";
 
 export const Contact = () => {
   const form = useRef();
@@ -53,7 +54,7 @@ export const Contact = () => {
       id="contact"
       style={{
         // padding: "120px 8rem",
-        backgroundImage: 'url("../public/3.png")',
+        backgroundImage: `url(${bg})`,
       }}
       className="z-0 min-h-screen relative flex flex-col items-center lg:justify-center gap-10 bg-top bg-cover lg:bg-auto px-20 md:px-36 bg-[#292929] "
     >
@@ -67,7 +68,7 @@ export const Contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="relative z-10 backdrop-blur-lg bg-[#c3c3c330] text-[#EDEDDF] flex flex-col justify-center gap-8 rounded-md shadow-md p-4 md:p-8 max-w-full lg:w-[750px] lg:min-h-[460px]"
+          className="relative z-10 bg-[#c3c3c330] text-[#EDEDDF] flex flex-col justify-center gap-8 rounded-md shadow-md p-4 md:p-8 max-w-full lg:w-[750px] lg:min-h-[460px]"
         >
           <div className="flex flex-col relative">
             <label>Name</label>
@@ -117,24 +118,6 @@ export const Contact = () => {
             className="bg-[#b9090b] py-3 rounded-md w-[50%] self-center cursor-pointer text-[#fff] hover:bg-[#b9090ce0] "
           />
         </form>
-        <div className="absolute h-[30%] w-[30%] rounded-[50%] z-0 bottom-0 right-0 ">
-          {/* <img
-            src="../../public/message.png"
-            className="w-full h-full object-contain"
-            alt=""
-          /> */}
-          {/* <svg
-            viewBox="0 0 200 200"
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-full h-full object-contain"
-          >
-            <path
-              fill="#E9FC87"
-              d="M50.4,-61.7C61.3,-51,63.1,-31.2,62.4,-14.2C61.6,2.9,58.3,17.3,51.2,29.6C44.1,41.8,33.3,51.8,18.8,61.2C4.3,70.6,-13.8,79.3,-25.2,73.4C-36.5,67.4,-41,46.9,-50.3,29.6C-59.5,12.4,-73.4,-1.5,-74.9,-16.7C-76.4,-31.9,-65.4,-48.4,-50.8,-58.4C-36.3,-68.4,-18.1,-71.9,0.8,-72.9C19.8,-73.9,39.6,-72.3,50.4,-61.7Z"
-              transform="translate(100 100)"
-            />
-          </svg> */}
-        </div>
       </div>
     </section>
   );

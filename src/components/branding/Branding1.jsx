@@ -12,6 +12,7 @@ import "swiper/css/thumbs";
 
 import "./style.css";
 import Heading from "../Heading";
+import image1 from "../../assets/branding1/br1.jpg";
 
 const Branding1 = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -47,7 +48,7 @@ const Branding1 = () => {
         className="mySwiper2"
       >
         <SwiperSlide>
-          <img src="../../../public/branding1/br1.jpg" />
+          <img src={image1} />
         </SwiperSlide>
         <SwiperSlide>
           <img src="../../../public/branding1/br2.jpg" />

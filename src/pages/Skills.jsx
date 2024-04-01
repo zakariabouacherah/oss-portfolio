@@ -9,6 +9,7 @@ import {
 } from "react-icons/si";
 import { MdPhotoCamera } from "react-icons/md";
 import { IoVideocam } from "react-icons/io5";
+import bg from "../assets/3.png";
 
 const Skills = () => {
   return (
@@ -16,7 +17,7 @@ const Skills = () => {
       id="skills"
       style={{
         // padding: "120px 8rem",
-        backgroundImage: 'url("../public/3.png")',
+        backgroundImage: `url(${bg})`,
       }}
       className=" lg:h-screen flex flex-col justify-center  bg-top bg-cover lg:bg-auto bg-[#292929] px-12 md:px-24 lg:px-32"
     >

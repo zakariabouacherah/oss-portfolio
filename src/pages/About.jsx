@@ -1,6 +1,7 @@
 import Heading from "../components/Heading";
 import { FaFacebookF, FaInstagram, FaBehance, FaTwitter } from "react-icons/fa";
 import photo from "../assets/img1.png";
+import bg from "../assets/2.png";
 
 const About = () => {
   // const bg = { backgroundImage: 'url("../public/bg3.png")' };
@@ -14,7 +15,7 @@ const About = () => {
       // style={bg}
       style={{
         // padding: "120px 8rem",
-        backgroundImage: 'url("../src/assets/2.png")',
+        backgroundImage: `url(${bg})`,
       }}
       className=" lg:h-screen bg-cover lg:bg-auto flex flex-col items-center justify-start lg:justify-center gap-10 bg-top py-6 px-12 md:px-24 lg:px-32 bg-[#000] "
     >
