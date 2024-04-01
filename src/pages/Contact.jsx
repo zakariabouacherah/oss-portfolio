@@ -56,9 +56,9 @@ export const Contact = () => {
         // padding: "120px 8rem",
         backgroundImage: `url(${bg})`,
       }}
-      className="z-0 min-h-screen relative flex flex-col items-center lg:justify-center gap-12 bg-top bg-cover lg:bg-auto px-20 pb-16 md:px-36 bg-[#292929] "
+      className="z-0 min-h-screen relative flex flex-col items-center lg:justify-center gap-10 bg-top bg-cover lg:bg-auto px-20 pb-8 md:px-36 bg-[#292929] "
     >
-      <div className="z-0 my-10">
+      <div className="z-0 mb-10">
         <Heading title="CONTACT" background="CONTACT" />
       </div>
       <p className="text-white lg:w-[70%] text-center text-xl ">
@@ -68,7 +68,7 @@ export const Contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="relative z-10 bg-[#c3c3c330] text-[#EDEDDF] flex flex-col justify-center gap-8 rounded-md shadow-md p-4 md:p-8 max-w-full lg:w-[750px] lg:min-h-[460px]"
+          className="relative z-10  bg-[#c3c3c330] text-[#EDEDDF] flex flex-col justify-center gap-8 rounded-md shadow-md p-4 md:p-8 max-w-full lg:w-[750px] lg:min-h-[460px]"
         >
           <div className="flex flex-col relative">
             <label>Name</label>
