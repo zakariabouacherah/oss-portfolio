@@ -11,10 +11,12 @@ const Services = () => {
   return (
     <section
       id="services"
-      style={{
-        // padding: "120px 8rem",
-        backgroundImage: `url(${bg})`,
-      }}
+      style={
+        {
+          // padding: "120px 8rem",
+          // backgroundImage: `url(${bg})`,
+        }
+      }
       className="  flex flex-col items-center justify-center gap-10 bg-top bg-cover lg:bg-auto pt-6 pb-16 lg:pt-28 px-12 md:px-36 bg-[#000] "
     >
       <div className="z-0 my-10">
@@ -34,7 +36,7 @@ const Services = () => {
         <ServiceItem
           icon={<HiOutlineSpeakerphone />}
           title="Branding"
-          text="'ll develop a compelling branding strategy that resonates with your audience, helping your business leave a lasting impression in the market."
+          text="I'll develop a compelling branding strategy that resonates with your audience, helping your business leave a lasting impression in the market."
         />
         <ServiceItem
           icon={<FaCamera />}

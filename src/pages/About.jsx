@@ -13,10 +13,12 @@ const About = () => {
     <section
       id="about"
       // style={bg}
-      style={{
-        // padding: "120px 8rem",
-        backgroundImage: `url(${bg})`,
-      }}
+      style={
+        {
+          // padding: "120px 8rem",
+          // backgroundImage: `url(${bg})`,
+        }
+      }
       className=" lg:h-screen bg-cover lg:bg-auto flex flex-col items-center justify-start lg:justify-center gap-10 bg-top py-6 px-12 md:px-24 lg:px-32 bg-[#000] "
     >
       <div className="z-0">
@@ -42,7 +44,7 @@ const About = () => {
               style={{ textShadow: "0 0 20px -10px #b9090b" }}
               className="text-[#b9090b] font-bold"
             >
-              Oussama chid
+              Oussama Ichid
             </span>
           </div>
           <div className="text-justify text-sm mb-3">

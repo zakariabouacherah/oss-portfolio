@@ -21,9 +21,9 @@ const Photos = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const divStyle =
-    "h-[300px] lg:h-[350px] overflow-hidden flex items-center justify-center rounded-sm ";
+    "h-[300px] lg:h-[350px] overflow-hidden flex items-center justify-center border-[2px] border-[#c9191b] rounded-lg ";
   const imgStyle =
-    "w-full h-full object-cover drop-shadow-md cursor-pointer lg:brightness-75 hover:brightness-100 transition-all ease scale-100 hover:scale-105";
+    "w-full h-full object-cover  drop-shadow-md cursor-pointer lg:brightness-75 hover:brightness-100 transition-all ease scale-100 hover:scale-105";
 
   const openModal = (imageSrc) => {
     setSelectedImage(imageSrc);

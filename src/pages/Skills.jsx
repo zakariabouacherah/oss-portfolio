@@ -15,18 +15,20 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      style={{
-        // padding: "120px 8rem",
-        backgroundImage: `url(${bg})`,
-      }}
-      className=" lg:h-screen flex flex-col justify-center  bg-top bg-cover lg:bg-auto bg-[#292929] px-12 md:px-24 lg:px-32"
+      style={
+        {
+          // padding: "120px 8rem",
+          // backgroundImage: `url(${bg})`,
+        }
+      }
+      className=" lg:h-screen flex flex-col justify-center  bg-top bg-cover lg:bg-auto bg-[#000] px-12 md:px-24 lg:px-32"
     >
       <div className="z-0 ">
         <Heading title="SKILLS" background="SKILLS" />
       </div>
       <div className="grid lg:grid-cols-2 gap-x-16 gap-y-20 mt-16">
         <SkillItem
-          title="Adobe Illistrator"
+          title="Adobe Illustrator"
           percentage="90"
           icon={<SiAdobeillustrator />}
         />

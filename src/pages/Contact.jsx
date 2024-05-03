@@ -52,11 +52,13 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      style={{
-        // padding: "120px 8rem",
-        backgroundImage: `url(${bg})`,
-      }}
-      className="z-0 min-h-screen relative flex flex-col items-center lg:justify-center gap-10 bg-top bg-cover lg:bg-auto px-20 pb-8 md:px-36 bg-[#292929] "
+      style={
+        {
+          // padding: "120px 8rem",
+          // backgroundImage: `url(${bg})`,
+        }
+      }
+      className="z-0 min-h-screen relative flex flex-col items-center lg:justify-center gap-10 bg-top bg-cover lg:bg-auto px-20 pb-8 md:px-36 bg-[#000] "
     >
       <div className="z-0 mb-10">
         <Heading title="CONTACT" background="CONTACT" />
