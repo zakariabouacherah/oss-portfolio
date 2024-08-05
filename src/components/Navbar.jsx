@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaBars, FaXmark } from "react-icons/fa6";
-import logo from "../assets/Profile.png";
+import logo from "../assets/Untitled-1-01.png";
 
 const MENU_ITEMS = [
   { id: "home", label: "Home", scrollPosition: 927 },
@@ -48,25 +48,19 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`flex items-center w-screen transition-all justify-between py-4 px-16 fixed top-0 gap-24  z-40 text-white  ${
+      className={`flex items-center w-screen transition-all justify-between py-4 px-16 fixed top-0 gap-48  z-40 text-white  ${
         color ? "backdrop-blur-md bg-[#44444471] shadow-md" : "bg-transparent"
       }`}
     >
-      {/* <a
-        href="#home"
-        className="font-bold text-2xl text-[#ff9a00] cursor-pointer"
-      >
-        OI
-      </a> */}
       <a
         onClick={closeNavbar}
         href="#contact"
-        className="w-10 h-10 bg-gradient-to-b from-[#e8c365bd] to-[#b9090c3f] shadow-md rounded-full flex items-center justify-center"
+        className="w-16 h-16 drop-shadow-lg rounded-full flex items-center justify-center"
       >
         <img
           src={logo}
           alt="avatar"
-          className="w-10 h-10 object-contain rounded-full"
+          className="w-16 h-16 object-contain rounded-full"
         />
       </a>
       <div
