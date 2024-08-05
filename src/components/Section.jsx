@@ -6,7 +6,7 @@ import Sm from "./Sm";
 
 const Section = ({ activeSection }) => {
   return (
-    <div>
+    <div className="w-full">
       {activeSection === "logos" && <Logos />}
       {activeSection === "sm" && <Sm />}
       {activeSection === "photos" && <Photos />}

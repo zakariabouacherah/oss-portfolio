@@ -15,7 +15,7 @@ const Galery = () => {
       style={{
         backgroundImage: 'url("../public/3.png")',
       }}
-      className=" min-h-screen flex flex-col justify-center items-center gap-10  bg-top bg-cover lg:bg-auto bg-[#000] pt-32 px-12 md:px-24 lg:px-32 "
+      className=" min-h-screen flex flex-col justify-center items-center gap-10  bg-top bg-cover lg:bg-auto bg-[#030303] py-6 px-12 md:px-24 lg:px-32 "
     >
       <div className="z-0 my-10">
         <Heading title="GALERY" background="GALERY" />
@@ -24,8 +24,8 @@ const Galery = () => {
         <button
           className={
             activeSection === "photos"
-              ? "text-[#c9191b] font-semibold"
-              : "font-light"
+              ? "font-semibold bg-[#ff9a00] rounded-full px-4 py-2"
+              : "font-light px-4 py-2"
           }
           onClick={() => handleButtonClick("photos")}
         >
@@ -34,8 +34,8 @@ const Galery = () => {
         <button
           className={
             activeSection === "videos"
-              ? "text-[#c9191b] font-semibold"
-              : "font-light"
+              ? "font-semibold bg-[#ff9a00] rounded-full px-4 py-2"
+              : "font-light px-4 py-2"
           }
           onClick={() => handleButtonClick("videos")}
         >

@@ -9,21 +9,14 @@ import {
 } from "react-icons/si";
 import { MdPhotoCamera } from "react-icons/md";
 import { IoVideocam } from "react-icons/io5";
-import bg from "../assets/3.png";
 
 const Skills = () => {
   return (
-    <div
+    <section
       id="skills"
-      style={
-        {
-          // padding: "120px 8rem",
-          // backgroundImage: `url(${bg})`,
-        }
-      }
-      className=" lg:h-screen flex flex-col justify-center  bg-top bg-cover lg:bg-auto bg-[#000] px-12 md:px-24 lg:px-32"
+      className=" lg:min-h-screen flex flex-col justify-center  bg-top bg-cover lg:bg-auto bg-[#030303] py-6 px-12 md:px-24 lg:px-32"
     >
-      <div className="z-0 ">
+      <div className="z-0 mt-4 ">
         <Heading title="SKILLS" background="SKILLS" />
       </div>
       <div className="grid lg:grid-cols-2 gap-x-16 gap-y-20 mt-16">
@@ -59,13 +52,7 @@ const Skills = () => {
         />
         <SkillItem title="Videography" percentage="70" icon={<IoVideocam />} />
       </div>
-      <div className="text-center mt-16">
-        <h1 className="text-xl md:text-3xl font-bold text-slate-50 tracking-widest">
-          I'm Available For{" "}
-          <span className="text-[#b9090b] underline">FreeLance !</span>
-        </h1>
-      </div>
-    </div>
+    </section>
   );
 };
 

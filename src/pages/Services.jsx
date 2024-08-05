@@ -11,13 +11,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      style={
-        {
-          // padding: "120px 8rem",
-          // backgroundImage: `url(${bg})`,
-        }
-      }
-      className="  flex flex-col items-center justify-center gap-10 bg-top bg-cover lg:bg-auto pt-6 pb-16 lg:pt-28 px-12 md:px-36 bg-[#000] "
+      className="min-h-screen flex flex-col items-center justify-center gap-10 py-6 px-12 md:px-24 lg:px-32 bg-[#333] "
     >
       <div className="z-0 my-10">
         <Heading title="SERVICES" background="SERVICES" />

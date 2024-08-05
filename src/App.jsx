@@ -7,12 +7,14 @@ import PortfoliSection from "./pages/PortfoliSection";
 import Galery from "./pages/Galery";
 import Services from "./pages/Services";
 import { Contact } from "./pages/Contact";
+import IWorkWith from "./pages/IWorkWith";
 
 function App() {
   return (
     <>
       <Layout>
         <HeroSection />
+        <IWorkWith />
         <About />
         <Skills />
         <PortfoliSection />
